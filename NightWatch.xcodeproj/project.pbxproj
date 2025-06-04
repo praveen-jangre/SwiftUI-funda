@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		95EE8BE22DE9DCDF0010E85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EE8BCC2DE9DCDB0010E85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EE8BD32DE9DCDB0010E85B;
+			remoteInfo = NightWatch;
+		};
+		95EE8BEC2DE9DCDF0010E85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EE8BCC2DE9DCDB0010E85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EE8BD32DE9DCDB0010E85B;
+			remoteInfo = NightWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95EE8BD42DE9DCDB0010E85B /* NightWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EE8BE12DE9DCDF0010E85B /* NightWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EE8BEB2DE9DCDF0010E85B /* NightWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		95EE8BD62DE9DCDB0010E85B /* NightWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NightWatch;
+			sourceTree = "<group>";
+		};
+		95EE8BE42DE9DCDF0010E85B /* NightWatchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NightWatchTests;
+			sourceTree = "<group>";
+		};
+		95EE8BEE2DE9DCDF0010E85B /* NightWatchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NightWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95EE8BD12DE9DCDB0010E85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BDE2DE9DCDF0010E85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BE82DE9DCDF0010E85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95EE8BCB2DE9DCDB0010E85B = {
+			isa = PBXGroup;
+			children = (
+				95EE8BD62DE9DCDB0010E85B /* NightWatch */,
+				95EE8BE42DE9DCDF0010E85B /* NightWatchTests */,
+				95EE8BEE2DE9DCDF0010E85B /* NightWatchUITests */,
+				95EE8BD52DE9DCDB0010E85B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EE8BD52DE9DCDB0010E85B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95EE8BD42DE9DCDB0010E85B /* NightWatch.app */,
+				95EE8BE12DE9DCDF0010E85B /* NightWatchTests.xctest */,
+				95EE8BEB2DE9DCDF0010E85B /* NightWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95EE8BD32DE9DCDB0010E85B /* NightWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EE8BF52DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatch" */;
+			buildPhases = (
+				95EE8BD02DE9DCDB0010E85B /* Sources */,
+				95EE8BD12DE9DCDB0010E85B /* Frameworks */,
+				95EE8BD22DE9DCDB0010E85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				95EE8BD62DE9DCDB0010E85B /* NightWatch */,
+			);
+			name = NightWatch;
+			packageProductDependencies = (
+			);
+			productName = NightWatch;
+			productReference = 95EE8BD42DE9DCDB0010E85B /* NightWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95EE8BE02DE9DCDF0010E85B /* NightWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EE8BF82DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatchTests" */;
+			buildPhases = (
+				95EE8BDD2DE9DCDF0010E85B /* Sources */,
+				95EE8BDE2DE9DCDF0010E85B /* Frameworks */,
+				95EE8BDF2DE9DCDF0010E85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95EE8BE32DE9DCDF0010E85B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				95EE8BE42DE9DCDF0010E85B /* NightWatchTests */,
+			);
+			name = NightWatchTests;
+			packageProductDependencies = (
+			);
+			productName = NightWatchTests;
+			productReference = 95EE8BE12DE9DCDF0010E85B /* NightWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95EE8BEA2DE9DCDF0010E85B /* NightWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EE8BFB2DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatchUITests" */;
+			buildPhases = (
+				95EE8BE72DE9DCDF0010E85B /* Sources */,
+				95EE8BE82DE9DCDF0010E85B /* Frameworks */,
+				95EE8BE92DE9DCDF0010E85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95EE8BED2DE9DCDF0010E85B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				95EE8BEE2DE9DCDF0010E85B /* NightWatchUITests */,
+			);
+			name = NightWatchUITests;
+			packageProductDependencies = (
+			);
+			productName = NightWatchUITests;
+			productReference = 95EE8BEB2DE9DCDF0010E85B /* NightWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95EE8BCC2DE9DCDB0010E85B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					95EE8BD32DE9DCDB0010E85B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					95EE8BE02DE9DCDF0010E85B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 95EE8BD32DE9DCDB0010E85B;
+					};
+					95EE8BEA2DE9DCDF0010E85B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 95EE8BD32DE9DCDB0010E85B;
+					};
+				};
+			};
+			buildConfigurationList = 95EE8BCF2DE9DCDB0010E85B /* Build configuration list for PBXProject "NightWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95EE8BCB2DE9DCDB0010E85B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 95EE8BD52DE9DCDB0010E85B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95EE8BD32DE9DCDB0010E85B /* NightWatch */,
+				95EE8BE02DE9DCDF0010E85B /* NightWatchTests */,
+				95EE8BEA2DE9DCDF0010E85B /* NightWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95EE8BD22DE9DCDB0010E85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BDF2DE9DCDF0010E85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BE92DE9DCDF0010E85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95EE8BD02DE9DCDB0010E85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BDD2DE9DCDF0010E85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE8BE72DE9DCDF0010E85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95EE8BE32DE9DCDF0010E85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95EE8BD32DE9DCDB0010E85B /* NightWatch */;
+			targetProxy = 95EE8BE22DE9DCDF0010E85B /* PBXContainerItemProxy */;
+		};
+		95EE8BED2DE9DCDF0010E85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95EE8BD32DE9DCDB0010E85B /* NightWatch */;
+			targetProxy = 95EE8BEC2DE9DCDF0010E85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95EE8BF32DE9DCDF0010E85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95EE8BF42DE9DCDF0010E85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95EE8BF62DE9DCDF0010E85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95EE8BF72DE9DCDF0010E85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95EE8BF92DE9DCDF0010E85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightWatch";
+			};
+			name = Debug;
+		};
+		95EE8BFA2DE9DCDF0010E85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightWatch";
+			};
+			name = Release;
+		};
+		95EE8BFC2DE9DCDF0010E85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightWatch;
+			};
+			name = Debug;
+		};
+		95EE8BFD2DE9DCDF0010E85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK7Q989NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pj.NightWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95EE8BCF2DE9DCDB0010E85B /* Build configuration list for PBXProject "NightWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EE8BF32DE9DCDF0010E85B /* Debug */,
+				95EE8BF42DE9DCDF0010E85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EE8BF52DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EE8BF62DE9DCDF0010E85B /* Debug */,
+				95EE8BF72DE9DCDF0010E85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EE8BF82DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EE8BF92DE9DCDF0010E85B /* Debug */,
+				95EE8BFA2DE9DCDF0010E85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EE8BFB2DE9DCDF0010E85B /* Build configuration list for PBXNativeTarget "NightWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EE8BFC2DE9DCDF0010E85B /* Debug */,
+				95EE8BFD2DE9DCDF0010E85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95EE8BCC2DE9DCDB0010E85B /* Project object */;
+}
