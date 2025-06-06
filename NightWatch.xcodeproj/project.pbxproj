@@ -6,6 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		95AF5F7A2DF19A83007680B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AF5F762DF19A83007680B6 /* Assets.xcassets */; };
+		95AF5F7B2DF19A83007680B6 /* NightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F782DF19A83007680B6 /* NightWatchApp.swift */; };
+		95AF5F7C2DF19A83007680B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F772DF19A83007680B6 /* ContentView.swift */; };
+		95AF5F7D2DF19A83007680B6 /* NightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F782DF19A83007680B6 /* NightWatchApp.swift */; };
+		95AF5F7E2DF19A83007680B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F772DF19A83007680B6 /* ContentView.swift */; };
+		95AF5F7F2DF19A83007680B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AF5F762DF19A83007680B6 /* Assets.xcassets */; };
+		95AF5F852DF19AFF007680B6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F842DF19AFF007680B6 /* SwiftUIView.swift */; };
+		95AF5F862DF19AFF007680B6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F842DF19AFF007680B6 /* SwiftUIView.swift */; };
+		95AF5F882DF1ABEC007680B6 /* SwiftUIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F872DF1ABEC007680B6 /* SwiftUIList.swift */; };
+		95AF5F892DF1ABEC007680B6 /* SwiftUIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F872DF1ABEC007680B6 /* SwiftUIList.swift */; };
+		95AF5F8B2DF1B553007680B6 /* SwiftUIGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F8A2DF1B553007680B6 /* SwiftUIGrid.swift */; };
+		95AF5F8C2DF1B553007680B6 /* SwiftUIGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F8A2DF1B553007680B6 /* SwiftUIGrid.swift */; };
+		95AF5F8E2DF1BA20007680B6 /* SwiftUINavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F8D2DF1BA20007680B6 /* SwiftUINavigationStack.swift */; };
+		95AF5F8F2DF1BA20007680B6 /* SwiftUINavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F8D2DF1BA20007680B6 /* SwiftUINavigationStack.swift */; };
+		95AF5F922DF1BF53007680B6 /* TaskSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F912DF1BF53007680B6 /* TaskSectionHeader.swift */; };
+		95AF5F932DF1BF53007680B6 /* TaskSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F912DF1BF53007680B6 /* TaskSectionHeader.swift */; };
+		95AF5F952DF1BFBE007680B6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F942DF1BFBE007680B6 /* DetailView.swift */; };
+		95AF5F962DF1BFBE007680B6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F942DF1BFBE007680B6 /* DetailView.swift */; };
+		95AF5F982DF1C3F9007680B6 /* SwiftUITabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F972DF1C3F9007680B6 /* SwiftUITabView.swift */; };
+		95AF5F992DF1C3F9007680B6 /* SwiftUITabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F972DF1C3F9007680B6 /* SwiftUITabView.swift */; };
+		95AF5F9B2DF1C5A6007680B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F9A2DF1C5A6007680B6 /* HomeView.swift */; };
+		95AF5F9C2DF1C5A6007680B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F9A2DF1C5A6007680B6 /* HomeView.swift */; };
+		95AF5F9E2DF1C5BB007680B6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F9D2DF1C5BB007680B6 /* MapView.swift */; };
+		95AF5F9F2DF1C5BB007680B6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5F9D2DF1C5BB007680B6 /* MapView.swift */; };
+		95AF5FA12DF1C5CA007680B6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA02DF1C5CA007680B6 /* SettingsView.swift */; };
+		95AF5FA22DF1C5CA007680B6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA02DF1C5CA007680B6 /* SettingsView.swift */; };
+		95AF5FA52DF1DC9D007680B6 /* NightWatchTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA42DF1DC9D007680B6 /* NightWatchTask.swift */; };
+		95AF5FA62DF1DC9D007680B6 /* NightWatchTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA42DF1DC9D007680B6 /* NightWatchTask.swift */; };
+		95AF5FA82DF1DF90007680B6 /* MarkCompleteExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA72DF1DF90007680B6 /* MarkCompleteExperiment.swift */; };
+		95AF5FA92DF1DF91007680B6 /* MarkCompleteExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FA72DF1DF90007680B6 /* MarkCompleteExperiment.swift */; };
+		95AF5FAB2DF2D063007680B6 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FAA2DF2D063007680B6 /* TaskView.swift */; };
+		95AF5FAC2DF2D063007680B6 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FAA2DF2D063007680B6 /* TaskView.swift */; };
+		95AF5FAF2DF2D214007680B6 /* NightWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FAE2DF2D214007680B6 /* NightWatchViewModel.swift */; };
+		95AF5FB02DF2D214007680B6 /* NightWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5FAE2DF2D214007680B6 /* NightWatchViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		95EE8BE22DE9DCDF0010E85B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +61,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95AF5F762DF19A83007680B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AF5F772DF19A83007680B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95AF5F782DF19A83007680B6 /* NightWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchApp.swift; sourceTree = "<group>"; };
+		95AF5F842DF19AFF007680B6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		95AF5F872DF1ABEC007680B6 /* SwiftUIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIList.swift; sourceTree = "<group>"; };
+		95AF5F8A2DF1B553007680B6 /* SwiftUIGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGrid.swift; sourceTree = "<group>"; };
+		95AF5F8D2DF1BA20007680B6 /* SwiftUINavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationStack.swift; sourceTree = "<group>"; };
+		95AF5F912DF1BF53007680B6 /* TaskSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSectionHeader.swift; sourceTree = "<group>"; };
+		95AF5F942DF1BFBE007680B6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		95AF5F972DF1C3F9007680B6 /* SwiftUITabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITabView.swift; sourceTree = "<group>"; };
+		95AF5F9A2DF1C5A6007680B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		95AF5F9D2DF1C5BB007680B6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		95AF5FA02DF1C5CA007680B6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		95AF5FA42DF1DC9D007680B6 /* NightWatchTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTask.swift; sourceTree = "<group>"; };
+		95AF5FA72DF1DF90007680B6 /* MarkCompleteExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkCompleteExperiment.swift; sourceTree = "<group>"; };
+		95AF5FAA2DF2D063007680B6 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		95AF5FAE2DF2D214007680B6 /* NightWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchViewModel.swift; sourceTree = "<group>"; };
 		95EE8BD42DE9DCDB0010E85B /* NightWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EE8BE12DE9DCDF0010E85B /* NightWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EE8BEB2DE9DCDF0010E85B /* NightWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		95EE8BD62DE9DCDB0010E85B /* NightWatch */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NightWatch;
-			sourceTree = "<group>";
-		};
 		95EE8BE42DE9DCDF0010E85B /* NightWatchTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NightWatchTests;
@@ -72,10 +121,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95AF5F792DF19A83007680B6 /* NightWatch */ = {
+			isa = PBXGroup;
+			children = (
+				95AF5F762DF19A83007680B6 /* Assets.xcassets */,
+				95AF5F772DF19A83007680B6 /* ContentView.swift */,
+				95AF5F782DF19A83007680B6 /* NightWatchApp.swift */,
+				95AF5FAD2DF2D1F2007680B6 /* ViewModel */,
+				95AF5FA32DF1DC67007680B6 /* Model */,
+				95AF5F902DF1BF22007680B6 /* Views */,
+				95AF5F802DF19A91007680B6 /* Experiments */,
+			);
+			path = NightWatch;
+			sourceTree = "<group>";
+		};
+		95AF5F802DF19A91007680B6 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				95AF5F842DF19AFF007680B6 /* SwiftUIView.swift */,
+				95AF5F872DF1ABEC007680B6 /* SwiftUIList.swift */,
+				95AF5F8A2DF1B553007680B6 /* SwiftUIGrid.swift */,
+				95AF5F8D2DF1BA20007680B6 /* SwiftUINavigationStack.swift */,
+				95AF5F972DF1C3F9007680B6 /* SwiftUITabView.swift */,
+				95AF5FA72DF1DF90007680B6 /* MarkCompleteExperiment.swift */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
+		95AF5F902DF1BF22007680B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95AF5F912DF1BF53007680B6 /* TaskSectionHeader.swift */,
+				95AF5F942DF1BFBE007680B6 /* DetailView.swift */,
+				95AF5F9A2DF1C5A6007680B6 /* HomeView.swift */,
+				95AF5F9D2DF1C5BB007680B6 /* MapView.swift */,
+				95AF5FA02DF1C5CA007680B6 /* SettingsView.swift */,
+				95AF5FAA2DF2D063007680B6 /* TaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95AF5FA32DF1DC67007680B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95AF5FA42DF1DC9D007680B6 /* NightWatchTask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95AF5FAD2DF2D1F2007680B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				95AF5FAE2DF2D214007680B6 /* NightWatchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		95EE8BCB2DE9DCDB0010E85B = {
 			isa = PBXGroup;
 			children = (
-				95EE8BD62DE9DCDB0010E85B /* NightWatch */,
+				95AF5F792DF19A83007680B6 /* NightWatch */,
 				95EE8BE42DE9DCDF0010E85B /* NightWatchTests */,
 				95EE8BEE2DE9DCDF0010E85B /* NightWatchUITests */,
 				95EE8BD52DE9DCDB0010E85B /* Products */,
@@ -106,9 +211,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				95EE8BD62DE9DCDB0010E85B /* NightWatch */,
 			);
 			name = NightWatch;
 			packageProductDependencies = (
@@ -212,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AF5F7A2DF19A83007680B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AF5F7F2DF19A83007680B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +340,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AF5F8B2DF1B553007680B6 /* SwiftUIGrid.swift in Sources */,
+				95AF5FAF2DF2D214007680B6 /* NightWatchViewModel.swift in Sources */,
+				95AF5F952DF1BFBE007680B6 /* DetailView.swift in Sources */,
+				95AF5F7B2DF19A83007680B6 /* NightWatchApp.swift in Sources */,
+				95AF5FAB2DF2D063007680B6 /* TaskView.swift in Sources */,
+				95AF5F9F2DF1C5BB007680B6 /* MapView.swift in Sources */,
+				95AF5FA92DF1DF91007680B6 /* MarkCompleteExperiment.swift in Sources */,
+				95AF5F9B2DF1C5A6007680B6 /* HomeView.swift in Sources */,
+				95AF5FA62DF1DC9D007680B6 /* NightWatchTask.swift in Sources */,
+				95AF5F8E2DF1BA20007680B6 /* SwiftUINavigationStack.swift in Sources */,
+				95AF5F992DF1C3F9007680B6 /* SwiftUITabView.swift in Sources */,
+				95AF5F7C2DF19A83007680B6 /* ContentView.swift in Sources */,
+				95AF5F862DF19AFF007680B6 /* SwiftUIView.swift in Sources */,
+				95AF5FA12DF1C5CA007680B6 /* SettingsView.swift in Sources */,
+				95AF5F892DF1ABEC007680B6 /* SwiftUIList.swift in Sources */,
+				95AF5F922DF1BF53007680B6 /* TaskSectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +363,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AF5F882DF1ABEC007680B6 /* SwiftUIList.swift in Sources */,
+				95AF5F9E2DF1C5BB007680B6 /* MapView.swift in Sources */,
+				95AF5F962DF1BFBE007680B6 /* DetailView.swift in Sources */,
+				95AF5F982DF1C3F9007680B6 /* SwiftUITabView.swift in Sources */,
+				95AF5F7D2DF19A83007680B6 /* NightWatchApp.swift in Sources */,
+				95AF5F8F2DF1BA20007680B6 /* SwiftUINavigationStack.swift in Sources */,
+				95AF5F9C2DF1C5A6007680B6 /* HomeView.swift in Sources */,
+				95AF5FAC2DF2D063007680B6 /* TaskView.swift in Sources */,
+				95AF5F932DF1BF53007680B6 /* TaskSectionHeader.swift in Sources */,
+				95AF5F7E2DF19A83007680B6 /* ContentView.swift in Sources */,
+				95AF5FA82DF1DF90007680B6 /* MarkCompleteExperiment.swift in Sources */,
+				95AF5FA52DF1DC9D007680B6 /* NightWatchTask.swift in Sources */,
+				95AF5FB02DF2D214007680B6 /* NightWatchViewModel.swift in Sources */,
+				95AF5F852DF19AFF007680B6 /* SwiftUIView.swift in Sources */,
+				95AF5F8C2DF1B553007680B6 /* SwiftUIGrid.swift in Sources */,
+				95AF5FA22DF1C5CA007680B6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
